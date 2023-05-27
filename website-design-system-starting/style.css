@@ -1,0 +1,373 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* max-width: 75rem; */
+    font-size: 16px;
+}
+
+body {
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/********************/
+/*Navigation Section*/
+/********************/
+
+nav {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: auto;
+    background-color: #242F40;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    /* padding: 0 4.5rem; */
+}
+
+nav li {
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 0.75rem 1.25rem;
+    background-color: #242F40;
+}
+
+nav li:hover {
+    border: 1px solid lightgray;
+}
+
+nav a {
+    color: #FC5130;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/****************/
+/*Banner Section*/
+/****************/
+
+.banner {
+    height: auto;
+    width: auto;
+    font-family: Lobster, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+/**************/
+/*Main Section*/
+/**************/
+
+main {
+    width: auto;
+    /* margin-top: 3rem; */
+    align-items: center;
+    line-height: 1.5;
+    /* border: 3px solid black; */
+}
+
+.box-titles {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-family: Lato, "sans serif";
+    font-size: 2rem;
+    font-weight: 900;
+    padding-top: 1.5rem;
+}
+
+/****************/
+/*Colors Section*/
+/****************/
+.section-colors {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    border: 1px solid black;
+    justify-content: center;
+    padding: 0 3.5rem 3rem;
+    margin: 4rem 6.5rem;
+}
+
+.color-box {
+    height: auto;
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+.colors {
+    width: 9.3rem;
+    height: 9.3rem;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+}
+
+.aqua {
+    background-color: #00ffff;
+}
+
+.aquamarine {
+    background-color: #7fffd4;
+}
+
+.salmon {
+    background-color: #fa8072;
+}
+
+.violet {
+    background-color: #ee82ee;
+}
+
+.turquoise {
+    background-color: #40e0d0;
+}
+
+.darkviolet {
+    background-color: #9932cc;
+}
+
+/* Centers the hex code text inside the circle */
+.color-box p {
+    font-family: Inconsolata;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+/***************/
+/*Fonts Section*/
+/***************/
+
+.section-fonts {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1.5px solid black;
+    justify-content: space-between;
+    margin: 4rem 6.5rem;
+    padding: 0 4.5rem 2rem;
+}
+
+.section-fonts ul {
+    list-style: square;
+    min-width: 10rem;
+    max-width: 20rem;
+    padding: 0 1.5rem 1rem;
+    /* border: 1px solid black; */
+}
+
+.section-fonts li {
+    font-size: 1rem;
+}
+
+.Lato {
+    font-family: Lato, sans-serif;
+}
+
+.Lora {
+    font-family: Lora, sans-serif;
+}
+
+.Inconsolata {
+    font-family: Inconsolata, sans-serif;
+}
+
+.Oswald {
+    font-family: Oswald, sans-serif;
+}
+
+.Oswald h3,
+.Lato h3,
+.Inconsolata h3,
+.Lora h3 {
+    padding: 0 0.5rem;
+}
+
+/********************/
+/*Textstyles Section*/
+/********************/
+
+.section-textstyles {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 4rem 6.5rem;
+    padding: 0 4.5rem 2rem;
+}
+
+.section-textstyles ul {
+    font-family: Lato, sans-serif;
+    /* border: 1px solid black; */
+    list-style: square;
+    padding: 0 1.5rem;
+}
+
+.Lato h1 {
+    font-weight: 700;
+    padding-top: 1.5rem;
+    /* border: 1px solid black; */
+}
+
+.Lato h2 {
+    font-weight: 400;
+    padding-top: 1.5rem;
+    /* border: 1px solid black; */
+}
+
+.Lato p {
+    padding-top: 1.5rem;
+}
+
+.codetext {
+    font-family: Inconsolata, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 1.5rem;
+    /* border: 1px solid black; */
+}
+
+/*****************/
+/*Buttons Section*/
+/*****************/
+
+.section-buttons {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.75rem;
+    justify-content: center;
+    margin: 0 6.5rem 9rem;
+    padding: 0 4rem 2rem;
+    border: 1px solid black;
+}
+
+.button {
+    height: 3rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    padding: 0 1rem;
+}
+
+.b1 {
+    color: #000;
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: Lora, sans-serif;
+    border-radius: 0.2rem;
+}
+
+.b1:hover {
+    background-color: turquoise;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.b2 {
+    color: #fff;
+    background-color: #002199;
+    border: none;
+    font-family: Lato, sans-serif;
+    /* border-radius: 0.2rem; */
+}
+
+.b2:hover {
+    /* background-color: #FC5130; */
+    background-color: orangered;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.b3 {
+    color: black;
+    background-color: #A682FF;
+    border: none;
+    font-weight: bold;
+}
+
+.b3:hover {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+}
+
+/****************/
+/*Footer Section*/
+/****************/
+
+footer {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* border-top: 5px solid #FC5130; */
+    color: #FC5130;
+    background-color: #242F40;
+    font-family: Oswald, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    bottom: 0px;
+}
+
+/****************************************************/
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    nav li {
+        display: block;
+        font-size: 1.5rem;
+        padding: 0.1rem 0;
+    }
+
+    .banner {
+        font-size: 1rem;
+    }
+
+    .colors {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .section-colors {
+        column-gap: 2rem;
+        row-gap: 2rem;
+        justify-content: center;
+    }
+
+    .section-fonts {
+        padding: 0 1.5rem 2rem;
+    }
+
+    .section-textstyles {
+        padding: 0 1.5rem 1rem;
+    }
+
+    .section-textstyles ul {
+        padding: 0 1.5rem;
+    }
+
+}

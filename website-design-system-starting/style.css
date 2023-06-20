@@ -33,6 +33,7 @@ nav {
     font-size: 2rem;
     font-weight: 400;
     /* padding: 0 4.5rem; */
+    /* margin:auto; */
 }
 
 nav li {
@@ -57,14 +58,18 @@ nav a {
 /****************/
 
 .banner {
+    /* position: relative;
+    left: 15%; */
     height: auto;
     width: auto;
     font-family: Lobster, sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
     text-align: center;
-    padding-top: 2.5rem;
-    margin-top: 70px;
+    padding-top: 1.5rem;
+    margin-top: 4.5rem; /*70px*/
+    padding-bottom: 1.5rem;
+    /* border: 3px solid black; */
 }
 
 /**************/
@@ -72,11 +77,13 @@ nav a {
 /**************/
 
 main {
-    width: auto;
+    width:fit-content;
     /* margin-top: 3rem; */
     align-items: center;
     line-height: 1.5;
-    /* border: 3px solid black; */
+    border: 3px solid black;
+    text-align: center;
+    margin: auto;
 }
 
 .box-titles {
@@ -321,11 +328,11 @@ main {
 /****************/
 
 footer {
-    height: 100px;
+    height: 70px;
     width: 100%;
     position: fixed;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     /* border-top: 5px solid #FC5130; */
     color: #FC5130;
@@ -338,15 +345,24 @@ footer {
 
 /****************************************************/
 
-@media only screen and (min-width: 320px) and (max-width: 425px) {
+@media only screen and (min-width: 600px) and (max-width: 760px) {
+    nav {
+    font-size: 1.65rem;
+    } 
+}
+
+/****************************************************/
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
     nav li {
         display: block;
         font-size: 1.5rem;
-        padding: 0.1rem 0;
+        padding: 0;
     }
 
     .banner {
         font-size: 1rem;
+        margin-top: 10rem;
     }
 
     .colors {
@@ -370,6 +386,6 @@ footer {
 
     .section-textstyles ul {
         padding: 0 1.5rem;
+        }
     }
 
-}

@@ -10,6 +10,5 @@ This is a project to practice and learn.
 :)
 
 [Live Preview](https://raw.githack.com/codxJC/Challenge-Project-2/master/website-design-system-starting/index.html)
-Still working on this.
 
 #### codxJC

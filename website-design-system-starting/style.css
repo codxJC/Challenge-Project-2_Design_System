@@ -206,9 +206,9 @@ main {
     padding: 0 0.5rem;
 }
 
-/********************/
-/*Textstyles Section*/
-/********************/
+/*********************/
+/*Text Styles Section*/
+/*********************/
 
 .section-textstyles {
     height: auto;
@@ -217,6 +217,7 @@ main {
     border: 1px solid black;
     margin: 4rem 6.5rem;
     padding: 0 4.5rem 2rem;
+    text-align: left;
 }
 
 .section-textstyles ul {

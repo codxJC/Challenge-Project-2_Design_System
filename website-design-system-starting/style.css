@@ -144,6 +144,22 @@ main {
     background-color: #9932cc;
 }
 
+.lilac {
+    background-color: #A5A1FF;
+}
+
+.off-black {
+    background-color: #1B1B1F;
+}
+
+#off-black {
+    color: #f4f1de;
+}
+
+.fav-cream {
+    background-color: #f4f1de;
+}
+
 /* Centers the hex code text inside the circle */
 .color-box p {
     font-family: Inconsolata;
